@@ -44,3 +44,12 @@
 - **Async/Await**: Used standard JavaScript `async/await` syntax to handle asynchronous data fetching within the page component.
 
 [View Chapter 7 Dashboard Evidence](./screenshots/Screenshot%202026-02-22%20141756.png)
+
+## Chapter 8
+
+- **Static vs Dynamic Rendering**: Explored the differences between static and dynamic rendering and their impact on performance.
+- **Dynamic Rendering**: Switched to dynamic rendering for the dashboard to ensure users always see the latest data.
+- **Handling Slow Data**: Observed how synchronous data fetching can lead to a "waterfall" effect, where slow requests block the entire page from rendering.
+- **Artificial Delay**: Implemented a 3-second artificial delay in the data fetch to simulate real-world networking issues and observe its effect on the application.
+
+[View Chapter 8 Evidence](./screenshots/Screenshot%202026-02-22%20143353.png)
