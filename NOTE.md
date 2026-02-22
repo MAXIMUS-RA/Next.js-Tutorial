@@ -20,5 +20,16 @@
 
 [View Chapter 4 Evidence_2](./screenshots/Screenshot%202026-02-22%20130400.png)
 
+## Chapter 5
+
+- **Navigation**: Replaced `<a>` tags with the `<Link />` component from `next/link` to enable fast, client-side navigation.
+- **Active Link Pattern**: Used the `usePathname()` hook to track the current route and highlight the active link in the sidebar.
+- **Conditional Styling**: Applied the `clsx` utility to dynamically toggle CSS classes for a better user experience during navigation.
+
+[View Chapter 5 Navigation Evidence](./screenshots/Screenshot%202026-02-22%20130400.png)
+
+
+
+
 
 
