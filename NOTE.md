@@ -28,6 +28,14 @@
 
 [View Chapter 5 Navigation Evidence](./screenshots/Screenshot%202026-02-22%20130400.png)
 
+## Chapter 6
+
+- **Database Setup**: Initialized a PostgreSQL database and connected it to the application using environment variables.
+- **Data Seeding**: Implemented a seeding script to populate the database with initial users, customers, invoices, and revenue data.
+- **SQL Queries**: Successfully verified database connectivity and data retrieval by creating a `/query` route to fetch specific records using SQL.
+
+[View Chapter 6 Database Query Evidence](./screenshots/Screenshot%202026-02-22%20135835.png)
+
 
 
 
