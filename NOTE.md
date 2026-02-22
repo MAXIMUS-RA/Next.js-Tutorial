@@ -36,8 +36,11 @@
 
 [View Chapter 6 Database Query Evidence](./screenshots/Screenshot%202026-02-22%20135835.png)
 
+## Chapter 7
 
+- **Data Fetching**: Fetched data using SQL for the dashboard components, including revenue, invoices, and card statistics.
+- **Dashboard Overview**: Completed the main dashboard page by populating the `RevenueChart`, `LatestInvoices`, and `<Card>` components with real data from the database.
+- **Server Components**: Leveraged React Server Components to fetch data directly on the server, improving performance and security.
+- **Async/Await**: Used standard JavaScript `async/await` syntax to handle asynchronous data fetching within the page component.
 
-
-
-
+[View Chapter 7 Dashboard Evidence](./screenshots/Screenshot%202026-02-22%20141756.png)
