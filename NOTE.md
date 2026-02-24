@@ -53,3 +53,22 @@
 - **Artificial Delay**: Implemented a 3-second artificial delay in the data fetch to simulate real-world networking issues and observe its effect on the application.
 
 [View Chapter 8 Evidence](./screenshots/Screenshot%202026-02-22%20143353.png)
+
+## Chapter 9
+
+- **Streaming Data**: Implemented streaming data fetching using `useEffect` and `useRef` to handle real-time updates.
+- **Data Updates**: Successfully updated the dashboard components in real-time as new data arrives.
+- **Error Handling**: Added error handling for network issues and data processing errors.
+- **Performance Optimization**: Reduced the number of re-renders by using `useMemo` and `useCallback`.
+
+[View Chapter 9 Streaming Evidence](./screenshots/Screenshot%202026-02-22%20170438.png)
+
+## Chapter 10
+
+- **Search Functionality**: Implemented a search bar using URL search parameters (`useSearchParams`, `usePathname`, and `useRouter`).
+- **URL-State Sync**: Ensured the search input stays in sync with the URL, allowing for bookmarkable and shareable search results.
+- **Server-Side Filtering**: Updated the data fetching logic to filter invoices based on the search query provided through the URL.
+- **Pagination**: Implemented server-side pagination to navigate through large datasets of invoices efficiently.
+- **Dynamic Table**: Successfully rendered the `InvoicesTable` component which dynamically updates based on both search queries and current page selection.
+
+[View Chapter 10 Search & Pagination Evidence](./screenshots/Screenshot%202026-02-24%20220611.png)
