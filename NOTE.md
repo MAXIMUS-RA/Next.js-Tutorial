@@ -72,3 +72,13 @@
 - **Dynamic Table**: Successfully rendered the `InvoicesTable` component which dynamically updates based on both search queries and current page selection.
 
 [View Chapter 10 Search & Pagination Evidence](./screenshots/Screenshot%202026-02-24%20220611.png)
+
+## Chapter 11
+
+- **Server Actions**: Implemented React Server Actions to handle form submissions securely on the server without needing manual API endpoints.
+- **Form Data Validation**: Used the `zod` library to define schemas and validate form data before performing database mutations.
+- **Creating Invoices**: Developed the "Create Invoice" workflow, mapping form fields to SQL `INSERT` statements using the `postgres` library.
+- **Cache Revalidation**: Utilized `revalidatePath` to clear the Next.js Data Cache for the invoices route, ensuring the table reflects new data immediately.
+- **Redirects**: Used the `redirect` function to navigate users back to the main `/dashboard/invoices` page after a successful data update.
+
+[View Chapter 11 Mutating Data Evidence](./screenshots/Screenshot%202026-02-25%20144112.png)
