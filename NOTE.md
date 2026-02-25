@@ -82,3 +82,12 @@
 - **Redirects**: Used the `redirect` function to navigate users back to the main `/dashboard/invoices` page after a successful data update.
 
 [View Chapter 11 Mutating Data Evidence](./screenshots/Screenshot%202026-02-25%20144112.png)
+
+## Chapter 12
+
+- **Updating Data**: Created dynamic route segments `[id]` and server actions to fetch and update existing invoice records.
+- **Deleting Data**: Implemented functionality to remove invoices from the database using a server action and the `DELETE` SQL command.
+- **Error Handling**: Integrated `error.tsx` to catch unexpected runtime errors and provide a fallback UI with a reset option.
+- **404 Not Found**: Leveraged the `notFound()` function and `not-found.tsx` to handle scenarios where a specific invoice record does not exist in the database.
+
+[View Chapter 12 Handling Errors Evidence](./screenshots/Screenshot%202026-02-25%20151037.png)
