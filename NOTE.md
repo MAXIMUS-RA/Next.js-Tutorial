@@ -110,3 +110,10 @@
 - **Credentials Provider**: Set up the credentials-based authentication provider with password verification using `bcrypt`.
 
 [View Chapter 14 Authentication Evidence](./screenshots/Chapter14.png)
+
+## Chapter 15
+
+- **Metadata**: Added metadata to the application using the Next.js Metadata API to improve SEO and shareability.
+- **Title Template**: Configured a `title.template` in the root `layout.tsx` to dynamically generate page titles in the format `%s | Acme Dashboard`.
+- **Page-Level Metadata**: Added specific `metadata` exports to individual pages (e.g., invoices, dashboard) to override the default title template.
+- **Open Graph**: Ensured the application is ready for social sharing with a proper `description` and `metadataBase` configuration.
