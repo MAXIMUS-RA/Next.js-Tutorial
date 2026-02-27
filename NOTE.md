@@ -100,3 +100,13 @@
 - **User Experience**: Enhanced the form feedback loop by displaying specific field errors (e.g., missing amount or status) directly in the UI, ensuring users can correct mistakes easily.
 
 [View Chapter 13 Accessibility Evidence](./screenshots/Screenshot%202026-02-26%20222810.png)
+
+## Chapter 14
+
+- **Authentication**: Integrated NextAuth.js to add authentication to the application.
+- **Login Page**: Created a fully functional login page at `/login` with email and password fields using the `LoginForm` component.
+- **Middleware Protection**: Configured `middleware.ts` to protect dashboard routes, redirecting unauthenticated users to the login page.
+- **Sign In/Sign Out**: Implemented `signIn` and `signOut` server actions using NextAuth.js to handle user sessions securely.
+- **Credentials Provider**: Set up the credentials-based authentication provider with password verification using `bcrypt`.
+
+[View Chapter 14 Authentication Evidence](./screenshots/Chapter14.png)
