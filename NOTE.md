@@ -91,3 +91,12 @@
 - **404 Not Found**: Leveraged the `notFound()` function and `not-found.tsx` to handle scenarios where a specific invoice record does not exist in the database.
 
 [View Chapter 12 Handling Errors Evidence](./screenshots/Screenshot%202026-02-25%20151037.png)
+
+## Chapter 13
+
+- **Improving Accessibility**: Focused on making the application more accessible to users with impairments.
+- **Form Validation**: Implemented server-side validation using `useActionState` (or `useFormState`) to handle form data and return descriptive error messages.
+- **ARIA Attributes**: Added ARIA attributes like `aria-describedby`, `aria-atomic`, and `role="alert"` to improve the experience for screen readers.
+- **User Experience**: Enhanced the form feedback loop by displaying specific field errors (e.g., missing amount or status) directly in the UI, ensuring users can correct mistakes easily.
+
+[View Chapter 13 Accessibility Evidence](./screenshots/Screenshot%202026-02-26%20222810.png)
